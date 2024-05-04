@@ -12,6 +12,7 @@ using namespace std;
 
 string jugadores() {
     // En esta funcion vamos a poner a los jugadores a que ingresen su nombre 
+    //Prueba git
     string nombre;
     cout << "Ingrese el nombre del jugador ";
     getline(cin, nombre);
