@@ -1,0 +1,6 @@
+﻿  JuegoAlgoritmos2-version1.cpp
+C:\Users\ivanv\Desktop\JuegoAlgoritmos2-version1\JuegoAlgoritmos2-version1.cpp(424,23): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\ivanv\Desktop\JuegoAlgoritmos2-version1\JuegoAlgoritmos2-version1.cpp(428,16): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\ivanv\Desktop\JuegoAlgoritmos2-version1\JuegoAlgoritmos2-version1.cpp(577,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\ivanv\Desktop\JuegoAlgoritmos2-version1\JuegoAlgoritmos2-version1.cpp(292,1): warning C4715: 'verificar_palabra': no todas las rutas de acceso de control devuelven un valor
+  JuegoAlgoritmos2-version1.vcxproj -> C:\Users\ivanv\Desktop\JuegoAlgoritmos2-version1\x64\Debug\JuegoAlgoritmos2-version1.exe
