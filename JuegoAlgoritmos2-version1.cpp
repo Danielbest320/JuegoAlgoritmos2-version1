@@ -41,6 +41,17 @@ void reglasdejuego3() {
     cout << "-----------------Listo, empecemos-------------------" << endl << endl;
 }
 
+void reglasdejuegoNivel2() {
+    cout << "-----------------Bienvenido al juego Adivinar la palabra Nivel 2-------------------" << endl;
+    cout << "En este nivel, te daremos definiciones de palabras y tendrás que adivinar la palabra correcta." << endl;
+    cout << "Cada respuesta correcta suma 10 puntos, y por cada incorrecta se restan 5 puntos." << endl;
+    cout << "Tendrás 10 oportunidades por turno." << endl;
+    cout << "Además, dispones de comodines que puedes usar para obtener la respuesta correcta automáticamente." << endl;
+    cout << "¡Pero cuidado! Solo tienes unos pocos comodines disponibles." << endl;
+    cout << "-----------------Listo, empecemos-------------------" << endl << endl;
+}
+
+
 vector<pair<string, string>> AbrirArchivoPreguntas(const string& filename) {
     vector<pair<string, string>> questions;
     ifstream file(filename);
@@ -108,7 +119,7 @@ void juego3Adivinarpalabra(Jugador& jugador) {
 }
 
 void juego3AdivinarpalabraNivel2(Jugador& jugador) {
-
+    reglasdejuegoNivel2();
 
     vector<pair<string, string>> preguntas = AbrirArchivoPreguntas("Nivel2.txt");
 
@@ -318,6 +329,6 @@ int main() {
         cout << "opcion no valida";
         break;
     }
-
+    
     return 0;
 }
